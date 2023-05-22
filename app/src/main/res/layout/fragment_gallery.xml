@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Gallery.Gallery">
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Random Photos"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleBuilding"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/buildingdua"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Building"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleBuilding"
+        app:layout_constraintStart_toStartOf="@+id/circleBuilding"
+        app:layout_constraintTop_toBottomOf="@+id/circleBuilding" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImage2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/pameran"
+            app:layout_constraintBottom_toBottomOf="@+id/circleBuilding"
+            app:layout_constraintStart_toEndOf="@+id/circleBuilding"
+            app:layout_constraintTop_toTopOf="@+id/circleBuilding" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="exhibition"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView32"
+            app:layout_constraintStart_toEndOf="@+id/textView32" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageBraga"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/street"
+            app:layout_constraintStart_toEndOf="@+id/circleImage2"
+            app:layout_constraintTop_toTopOf="@+id/circleImage2" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Streets"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView30"
+            app:layout_constraintStart_toEndOf="@+id/textView30"
+            app:layout_constraintTop_toTopOf="@+id/textView30"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageProfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/aku"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageBraga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageBraga"
+        app:layout_constraintTop_toTopOf="@+id/circleImageBraga" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:text="Portrait"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView33"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView33"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="188dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/bangunan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/garis" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="176dp"
+            android:layout_height="177dp"
+            android:layout_marginStart="98dp"
+            android:src="@drawable/selasar"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView6"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="173dp"
+            android:layout_marginStart="-30dp"
+            android:src="@drawable/selaras"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="207dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rahmaa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="211dp"
+            android:layout_height="212dp"
+            android:layout_marginStart="-10dp"
+            android:src="@drawable/jalanan"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="208dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="-30dp"
+            android:src="@drawable/langit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:layout_width="208dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/selasarr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView17" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

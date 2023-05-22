@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".Music.Music">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="373dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/music"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/melody"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="261dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Find Your Favorite\nMusic!"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome Back,\n Rahma!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="197dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Recently Played"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="203dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="-30dp"
+            android:src="@drawable/limbo"
+            app:layout_constraintEnd_toEndOf="@+id/textView27"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="124dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Limbo -\nKeshi"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <ImageView
+            android:id="@+id/cupid"
+            android:layout_width="203dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/fifty"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textViewCupid"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Cupid -\nFifty Fifty"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/cupid"
+            app:layout_constraintStart_toStartOf="@+id/cupid" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="187dp"
+            android:layout_height="192dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/komang"
+            app:layout_constraintEnd_toStartOf="@+id/cupid"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textKomang"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Komang -\nRaim Laode"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="192dp"
+            android:layout_height="197dp"
+            android:src="@drawable/pamungkas"
+            app:layout_constraintBottom_toTopOf="@+id/imageStephen"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textPamungkas"
+            android:layout_width="141dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="To The Bone -\nPamungkas"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/cupid" />
+
+        <ImageView
+            android:id="@+id/imageStephen"
+            android:layout_width="192dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/stephen"
+            app:layout_constraintBottom_toBottomOf="@+id/textUntil"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/textKomang" />
+
+        <TextView
+            android:id="@+id/textUntil"
+            android:layout_width="179dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Until I Found You -\nStephen Sanchez"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageStephen"
+            app:layout_constraintStart_toStartOf="@+id/imageStephen"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageSp"
+            android:layout_width="182dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageStephen"
+            app:layout_constraintStart_toEndOf="@+id/imageStephen"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textSomebody"
+            android:layout_width="158dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Somebody's Pleasure -\nAziz Hedra"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageSp"
+            app:layout_constraintStart_toEndOf="@+id/imageStephen"
+            app:layout_constraintTop_toBottomOf="@+id/textPamungkas" />
+
+        <ImageView
+            android:id="@+id/imageGaye"
+            android:layout_width="180dp"
+            android:layout_height="201dp"
+            android:src="@drawable/gaye"
+            app:layout_constraintEnd_toEndOf="@+id/imageStephen"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="@+id/imageStephen"
+            app:layout_constraintTop_toBottomOf="@+id/imageStephen" />
+
+        <TextView
+            android:id="@+id/textgaye"
+            android:layout_width="128dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Marvin Gaye -\nCharlie Puth"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageGaye"
+            app:layout_constraintEnd_toEndOf="@+id/imageGaye"
+            app:layout_constraintStart_toStartOf="@+id/imageGaye" />
+
+        <ImageView
+            android:id="@+id/imageBruno"
+            android:layout_width="180dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bruno"
+            app:layout_constraintBottom_toBottomOf="@+id/textgaye"
+            app:layout_constraintEnd_toEndOf="@+id/imageSp"
+            app:layout_constraintStart_toEndOf="@+id/imageGaye"
+            app:layout_constraintTop_toBottomOf="@+id/imageStephen" />
+
+        <TextView
+            android:id="@+id/textbruno"
+            android:layout_width="141dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/music_name"
+            android:gravity="center"
+            android:text="Marry You -\nBruno Mars"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageBruno"
+            app:layout_constraintEnd_toEndOf="@+id/imageBruno"
+            app:layout_constraintStart_toStartOf="@+id/imageBruno" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

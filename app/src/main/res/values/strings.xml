@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UTS_IF6_10120215_Rahma Yuniar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="music_favorite_amp_video"><![CDATA[Music Favorite & Video]]></string>
+    <string name="profile">Profile</string>
+</resources>
