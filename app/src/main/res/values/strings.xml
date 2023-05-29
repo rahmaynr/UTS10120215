@@ -9,4 +9,26 @@
     <string name="gallery">Gallery</string>
     <string name="music_favorite_amp_video"><![CDATA[Music Favorite & Video]]></string>
     <string name="profile">Profile</string>
+    <string name="hai_ma_nbagaimana_hari_ini">Hai Ma!\nBagaimana hari ini?</string>
+    <string name="progres_pekerjaan">Progres Pekerjaan</string>
+    <string name="sedang_n50">Sedang\n50%</string>
+    <string name="sudah_n30">Sudah\n30%</string>
+    <string name="belum_n20">Belum\n20%</string>
+    <string name="progres_pekerjaan_hari_ini">Progres Pekerjaan Hari Ini</string>
+    <string name="mengerjakan_tugas_akb">Mengerjakan Tugas Akb</string>
+    <string name="dengan_celvyn">Dengan Celvyn</string>
+    <string name="friend_list">Friend List</string>
+    <string name="submit_quiz_akb">Submit Quiz Akb</string>
+    <string name="dengan_persentase_80">Dengan Persentase 80%</string>
+    <string name="membaca_novel_bumi_terel_liye">Membaca Novel Bumi - Terel liye</string>
+    <string name="dengan_persentase_menyelesaikan_100">Dengan Persentase Menyelesaikan 100%</string>
+    <string name="random_photos">Random Photos</string>
+    <string name="building">Building</string>
+    <string name="exhibition">exhibition</string>
+    <string name="streets">Streets</string>
+    <string name="portrait">Portrait</string>
+    <string name="rahma_yuniar_20">Rahma Yuniar,20</string>
+    <string name="lampung_indonesia">Lampung,Indonesia</string>
+    <string name="height_155_cm">Height : 155 cm</string>
+    <string name="weight_52_kg">Weight : 52 kg</string>
 </resources>
