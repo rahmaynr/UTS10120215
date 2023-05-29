@@ -1,10 +1,15 @@
 package com.example.uts_if6_10120215_rahmayuniar.Profile
 
+import android.content.Intent
+import android.graphics.drawable.Icon
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
 import com.example.uts_if6_10120215_rahmayuniar.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -19,6 +24,7 @@ private const val ARG_PARAM2 = "param2"
  */
 class Profile : Fragment() {
     // TODO: Rename and change types of parameters
+    private var Maps: View? = null
     private var param1: String? = null
     private var param2: String? = null
 
@@ -34,6 +40,17 @@ class Profile : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
+        Maps?.setOnClickListener { view ->
+            val map = Intent()
+            map.action = Intent.ACTION_VIEW
+            map.addCategory(Intent.CATEGORY_BROWSABLE)
+            map.data = Uri.parse("https://www.google.com/maps/search/shakila+D5+kopo+safira+residence/@-6.959731,107.5729112,17z/data=!3m1!4b1?entry=ttu")
+            startActivity(map)
+        }
+
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }

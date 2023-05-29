@@ -89,35 +89,36 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayout2"
-                android:layout_width="358dp"
-                android:layout_height="235dp"
-                android:layout_marginTop="35dp"
-                android:background="@drawable/deskripsi_ama"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="327dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/deskripsi_ama"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
-                <TextView
-                    android:layout_width="352dp"
-                    android:layout_height="187dp"
-                    android:gravity="center"
-                    android:text="Hi, my name is Rahma Yuniar, since college I have been called ama.I really like capturing moments with a camera, and on campus I take part in an UKM glosarium that discusses the world of photography. Apart from that, I really like playing sports, one of which is basketball, which I have been practicing since I was in junior high school until now."
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="306dp"
+                android:layout_height="156dp"
+                android:text="@string/Deskripsi"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.636" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Interest"
+                android:text="@string/interest"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -145,7 +146,7 @@
                 android:layout_marginStart="10dp"
                 android:background="@drawable/deskripsi_ama"
                 android:gravity="center"
-                android:text="Swimming"
+                android:text="@string/swimming"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@+id/textView5"
                 app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -157,7 +158,7 @@
                 android:layout_marginStart="10dp"
                 android:background="@drawable/deskripsi_ama"
                 android:gravity="center"
-                android:text="Basketball"
+                android:text="@string/basketball"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@+id/textView6"
                 app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -170,7 +171,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/deskripsi_ama"
                 android:gravity="center"
-                android:text="Reading"
+                android:text="@string/reading"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/textView6"
                 app:layout_constraintStart_toStartOf="@+id/textView5"

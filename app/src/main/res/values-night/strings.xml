@@ -21,4 +21,20 @@
     <string name="rahma_yuniar_20">Rahma Yuniar,20</string>
     <string name="height_155_cm">Height : 155 cm</string>
     <string name="weight_52_kg">Weight : 52 kg</string>
+    <string name="welcome_back_n_rahma">Welcome Back,\n Rahma!</string>
+    <string name="limbo_nkeshi">Limbo -\nKeshi</string>
+    <string name="cupid_nfifty_fifty">Cupid -\nFifty Fifty</string>
+    <string name="komang_nraim_laode">Komang -\nRaim Laode</string>
+    <string name="to_the_bone_npamungkas">To The Bone -\nPamungkas</string>
+    <string name="somebody_s_pleasure_naziz_hedra">Somebody\'s Pleasure -\nAziz Hedra</string>
+    <string name="marvin_gaye_ncharlie_puth">Marvin Gaye -\nCharlie Puth</string>
+    <string name="marry_you_nbruno_mars">Marry You -\nBruno Mars</string>
+    <string name="rahma_yuniar_n20_female">Rahma Yuniar\n20,Female</string>
+    <string name="contact_me_via">Contact Me Via</string>
+    <string name="find_me">Find Me</string>
+    <string name="hi_my_name_is_rahma_yuniar_since_college_i_have_been_called_ama_i_really_like_capturing_moments_with_a_camera_and_on_campus_i_take_part_in_an_ukm_glosarium_that_discusses_the_world_of_photography_apart_from_that_i_really_like_playing_sports_one_of_which_is_basketball_which_i_have_been_practicing_since_i_was_in_junior_high_school_until_now">Hi, my name is Rahma Yuniar, since college I have been called ama.I really like capturing moments with a camera, and on campus I take part in an UKM glosarium that discusses the world of photography. Apart from that, I really like playing sports, one of which is basketball, which I have been practicing since I was in junior high school until now.</string>
+    <string name="interest">Interest</string>
+    <string name="swimming">Swimming</string>
+    <string name="basketball">Basketball</string>
+    <string name="reading">Reading</string>
 </resources>
