@@ -16,10 +16,13 @@ import com.example.uts_if6_10120215_rahmayuniar.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

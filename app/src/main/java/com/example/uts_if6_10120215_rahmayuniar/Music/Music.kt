@@ -1,10 +1,14 @@
 package com.example.uts_if6_10120215_rahmayuniar.Music
 
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.MediaController
+import android.widget.VideoView
+import androidx.fragment.app.FragmentContainer
 import com.example.uts_if6_10120215_rahmayuniar.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -18,12 +22,16 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class Music : Fragment() {
+    private lateinit var videoView: VideoView
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
@@ -31,11 +39,18 @@ class Music : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_music, container, false)
+        inflater: LayoutInflater,container: ViewGroup?,savedInstanceState: Bundle?
+    ):View?{
+        val root :View = inflater.inflate(R.layout.fragment_music,container,false)
+        videoView = root.findViewById(R.id.videoView)
+        val videoPath = "android.resource://"+requireContext().packageName+"/"+R.raw.keshi
+        val uri = Uri.parse(videoPath)
+        videoView.setVideoURI(uri )
+        val mediaController = MediaController(requireContext())
+        videoView.setMediaController(mediaController)
+        mediaController.setAnchorView(videoView)
+        return root
+
     }
 
     companion object {

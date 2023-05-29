@@ -12,38 +12,16 @@
         android:background="@color/black"
         tools:context=".Music.Music">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
-        android:layout_width="373dp"
-        android:layout_height="158dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/music"
-        app:layout_constraintEnd_toEndOf="@+id/textView25"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView25"
-        app:layout_constraintTop_toBottomOf="@+id/textView25">
-
-        <ImageView
-            android:layout_width="118dp"
-            android:layout_height="109dp"
-            android:layout_marginStart="236dp"
-            android:layout_marginTop="32dp"
-            android:src="@drawable/melody"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="261dp"
-            android:layout_height="83dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="30dp"
-            android:text="Find Your Favorite\nMusic!"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/videoView"
+            android:layout_width="383dp"
+            android:layout_height="169dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/music"
+            app:layout_constraintEnd_toEndOf="@+id/textView25"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <TextView
         android:id="@+id/textView25"
@@ -66,8 +44,8 @@
         android:text="Recently Played"
         android:textColor="@color/white"
         android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+        app:layout_constraintStart_toStartOf="@+id/videoView"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
 
         <ImageView
             android:id="@+id/imageView2"
