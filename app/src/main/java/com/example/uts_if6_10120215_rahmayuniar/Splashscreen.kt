@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.os.Handler
 
 
-
         class SplashScreenActivity : AppCompatActivity() {
 
             private val splashScreenTimeout =

@@ -27,7 +27,7 @@ class Profile : Fragment() {
 
     private var param1: String? = null
     private var param2: String? = null
-    private lateinit var imageView: ImageView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,23 +41,11 @@ class Profile : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        val imageView = findViewById<ImageView>(R.id.map)
-        imageView.setOnClickListener {
-            val url = "https://www.google.com/maps/search/shakila+D5+kopo+safira+residence/@-6.959731,107.5729112,17z/data=!3m1!4b1?entry=ttu"
-            val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse(url)
-            startActivity(intent)
-        }
-
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 
-}
-
-
-    private companion object{
+    private companion object {
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
@@ -76,3 +64,4 @@ class Profile : Fragment() {
                 }
             }
     }
+}
