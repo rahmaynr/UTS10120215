@@ -9,7 +9,7 @@ import android.os.Handler
         class SplashScreenActivity : AppCompatActivity() {
 
             private val splashScreenTimeout =
-                3000L // Durasi splash screen dalam milidetik (di sini: 3 detik)
+                1500L // Durasi splash screen dalam milidetik (di sini: 3 detik)
 
             override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)
