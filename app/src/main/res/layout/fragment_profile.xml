@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/black"
-    android:layout_height="match_parent"
-    tools:context=".Profile.Profile">
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".Profile.Profile">
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -62,7 +68,7 @@
     <Button
         android:id="@+id/btnInstagram"
         android:layout_width="160dp"
-        android:layout_height="61dp"
+        android:layout_height="55dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="openSocialMedia"
         android:text="Instagram"
@@ -72,8 +78,8 @@
 
     <Button
         android:id="@+id/btnWa"
-        android:layout_width="172dp"
-        android:layout_height="54dp"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="openSosialMedia"
@@ -84,8 +90,8 @@
 
     <Button
         android:id="@+id/btnEmail"
-        android:layout_width="172dp"
-        android:layout_height="54dp"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
         android:layout_marginTop="15dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="openSosialMedia"
@@ -94,6 +100,67 @@
         app:layout_constraintStart_toStartOf="@+id/btnInstagram"
         app:layout_constraintTop_toBottomOf="@+id/btnInstagram" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout7"
+            android:layout_width="339dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profileee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="187dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.445"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kopo Safira Residence Blok D5,\nMargahayu Tengah"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView11"
+                app:layout_constraintHorizontal_bias="0.235"
+                app:layout_constraintStart_toStartOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Me"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
 
 

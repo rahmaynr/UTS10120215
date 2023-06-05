@@ -1,12 +1,15 @@
 package com.example.uts_if6_10120215_rahmayuniar.Profile
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.text.util.Linkify
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
+import android.widget.TextView
 import com.example.uts_if6_10120215_rahmayuniar.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -26,8 +29,25 @@ class Profile : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        val rootView = inflater.inflate(R.layout.fragment_profile, container, false)
+
+        val textViewMapsLink = rootView.findViewById<TextView>(R.id.alamat)
+
+        textViewMapsLink.setOnClickListener {
+            val uri = "https://maps.app.goo.gl/ySE9rNJ81tzf6zAw7"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uri))
+            val linkText = "Kopo Safira Residence Blok D5,\nMargahayu Tengah"
+
+            textViewMapsLink.text = linkText
+            Linkify.addLinks(textViewMapsLink, Linkify.WEB_URLS)
+            textViewMapsLink.linksClickable = true
+            textViewMapsLink.setLinkTextColor(Color.BLUE)
+
+            startActivity(intent)
+        }
+
+        return rootView
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
