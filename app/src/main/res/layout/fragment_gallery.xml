@@ -12,20 +12,35 @@
         tools:context=".Gallery.Gallery">
 
 
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/random_photos"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/random_photos"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleBuilding"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -38,7 +53,8 @@
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-65dp"
         android:text="@string/building"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -46,21 +62,23 @@
         app:layout_constraintStart_toStartOf="@+id/circleBuilding"
         app:layout_constraintTop_toBottomOf="@+id/circleBuilding" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/circleImage2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/pameran"
-            app:layout_constraintBottom_toBottomOf="@+id/circleBuilding"
-            app:layout_constraintStart_toEndOf="@+id/circleBuilding"
-            app:layout_constraintTop_toTopOf="@+id/circleBuilding" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImage2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/pameran"
+                app:layout_constraintBottom_toBottomOf="@+id/circleBuilding"
+                app:layout_constraintStart_toEndOf="@+id/circleBuilding"
+                app:layout_constraintTop_toTopOf="@+id/circleBuilding" />
 
-        <TextView
+            <TextView
             android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="-65dp"
             android:text="@string/exhibition"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -71,6 +89,7 @@
             android:id="@+id/circleImageBraga"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:layout_marginStart="15dp"
             android:src="@drawable/street"
             app:layout_constraintStart_toEndOf="@+id/circleImage2"
@@ -80,7 +99,8 @@
             android:id="@+id/textView33"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="-65dp"
             android:text="@string/streets"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -93,7 +113,9 @@
         android:id="@+id/circleImageProfil"
         android:layout_width="80dp"
         android:layout_height="80dp"
+            android:layout_marginTop="20dp"
         android:src="@drawable/aku"
+            android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/circleImageBraga"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/circleImageBraga"
@@ -104,6 +126,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="-65dp"
             android:text="@string/portrait"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -112,23 +136,43 @@
             app:layout_constraintTop_toTopOf="@+id/textView33"
             app:layout_constraintVertical_bias="0.0" />
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageselasarr"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="-10dp"
+                android:src="@drawable/selasarr"/>
+
+            <TextView
+                android:id="@+id/painting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="-65dp"
+                android:text="Painting"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        </HorizontalScrollView>
+
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="125dp"
             android:layout_height="188dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/bangunan"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/garis" />
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="176dp"
             android:layout_height="177dp"
-            android:layout_marginStart="98dp"
             android:src="@drawable/selasar"
             app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
             app:layout_constraintTop_toTopOf="@+id/imageView6"
             app:layout_constraintVertical_bias="1.0" />
 
@@ -162,16 +206,7 @@
             app:layout_constraintTop_toTopOf="@+id/imageView7"
             app:layout_constraintVertical_bias="0.0" />
 
-        <View
-        android:id="@+id/garis"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
 
         <ImageView
             android:id="@+id/imageView17"

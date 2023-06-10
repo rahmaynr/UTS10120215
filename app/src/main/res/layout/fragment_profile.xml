@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="@string/rahma_yuniar_n20_female"
+            android:text="Rahma Yuniar\n21,Female"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"

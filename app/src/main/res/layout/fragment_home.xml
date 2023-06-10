@@ -39,7 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="56dp"
-                    android:text="@string/rahma_yuniar_20"
+                    android:text="Rahma Yuniar,21"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -139,32 +139,33 @@
                 app:layout_constraintStart_toStartOf="@+id/textView4"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="110dp"
-                android:layout_height="47dp"
-                android:layout_marginStart="10dp"
-                android:background="@drawable/deskripsi_ama"
-                android:gravity="center"
-                android:text="@string/swimming"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/textView5"
-                app:layout_constraintStart_toEndOf="@+id/textView5"
-                app:layout_constraintTop_toTopOf="@+id/textView5" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/deskripsi_ama"
+            android:gravity="center"
+            android:text="@string/swimming"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
 
-            <TextView
-                android:layout_width="110dp"
-                android:layout_height="47dp"
-                android:layout_marginStart="10dp"
-                android:background="@drawable/deskripsi_ama"
-                android:gravity="center"
-                android:text="@string/basketball"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/textView6"
-                app:layout_constraintStart_toEndOf="@+id/textView6"
-                app:layout_constraintTop_toTopOf="@+id/textView6" />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/deskripsi_ama"
+            android:gravity="center"
+            android:text="@string/basketball"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.0" />
 
-            <TextView
+        <TextView
                 android:id="@+id/textView7"
                 android:layout_width="110dp"
                 android:layout_height="47dp"
@@ -177,20 +178,34 @@
                 app:layout_constraintStart_toStartOf="@+id/textView5"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-            <TextView
-                android:layout_width="110dp"
-                android:layout_height="47dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/deskripsi_ama"
-                android:gravity="center"
-                android:text="UI/UX"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/textView7"
-                app:layout_constraintStart_toEndOf="@+id/textView7"
-                app:layout_constraintTop_toTopOf="@+id/textView7"
-                app:layout_constraintVertical_bias="1.0" />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/deskripsi_ama"
+            android:gravity="center"
+            android:text="Coding"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toTopOf="@+id/textView7"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="."
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+
     </ScrollView>
 
 
