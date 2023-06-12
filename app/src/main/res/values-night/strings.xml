@@ -38,4 +38,15 @@
     <string name="basketball">Basketball</string>
     <string name="reading">Reading</string>
     <string name="halo">Halo</string>
+    <string name="welcome_to_nmyself_app_rahma_yuniar">Welcome to\nMyself-App Rahma Yuniar</string>
+    <string name="self_made_to_nfulfill_the_assignment_of_the_akb_course">Self-made to\nfulfill the assignment of the AKB course</string>
+    <string name="welcome_to_myself_app">Welcome to MySelf-App</string>
+    <string name="so_enjoy">So Enjoy!!</string>
+    <string name="masuk">Masuk</string>
+    <string name="rahma_yuniar_n21_female">Rahma Yuniar\n21,Female</string>
+    <string name="whastapp">WhastApp</string>
+    <string name="email">Email</string>
+    <string name="kopo_safira_residence_blok_d5_nmargahayu_tengah">Kopo Safira Residence Blok D5,\nMargahayu Tengah</string>
+    <string name="find_me1">Find Me</string>
+    <string name="show_dialog">Show Dialog</string>
 </resources>

@@ -7,12 +7,17 @@
     android:background="@color/cadetblue"
     tools:context=".walktrough.walktrough1">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="192dp"
-        android:text="Welcome to\nMyself-App Rahma Yuniar"
+        android:text="@string/welcome_to_nmyself_app_rahma_yuniar"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -36,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
-        android:text="Self-made to\nfulfill the assignment of the AKB course"
+        android:text="@string/self_made_to_nfulfill_the_assignment_of_the_akb_course"
         android:textSize="20sp"
         android:textColor="@color/black"
         android:textStyle="bold"

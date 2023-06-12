@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
+
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="404dp"

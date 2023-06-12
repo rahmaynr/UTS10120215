@@ -7,13 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".walktrough.walktrough2">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Welcome to MySelf-App"
+        android:text="@string/welcome_to_myself_app"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -27,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
-        android:text="My-self App has several menus, namely\nhome containing interests, daily activities containing friend lists and activities that\nI did that day. "
+        android:text="@string/my_self_app_has_several_menus_namely_nhome_containing_interests_daily_activities_containing_friend_lists_and_activities_that_ni_did_that_day"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

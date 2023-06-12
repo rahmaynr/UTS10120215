@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -185,7 +190,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/deskripsi_ama"
             android:gravity="center"
-            android:text="Coding"
+            android:text="@string/coding"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/textView7"
             app:layout_constraintStart_toEndOf="@+id/textView7"

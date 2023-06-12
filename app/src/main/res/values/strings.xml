@@ -44,10 +44,24 @@
     <string name="rahma_yuniar_n20_female">Rahma Yuniar\n20,Female</string>
     <string name="contact_me_via">Contact Me Via</string>
     <string name="find_me">Find Me</string>
-    <string name="Deskripsi">Hi, my name is Rahma Yuniar, since college I have been called ama.I really like capturing moments with a camera, and on campus I take part in an UKM glosarium that discusses the world of photography.</string>
+    <string name="Deskripsi">Hi, my name is Rahma Yuniar, since college I have been called ama.\nI really like capturing moments with a camera, and on campus I take part in an UKM glosarium that discusses the world of photography.</string>
     <string name="interest">Interest</string>
     <string name="swimming">Swimming</string>
     <string name="basketball">Basketball</string>
     <string name="reading">Reading</string>
     <string name="halo">Halo</string>
+    <string name="coding">Coding</string>
+    <string name="welcome_to_nmyself_app_rahma_yuniar">Welcome to\nMyself-App Rahma Yuniar</string>
+    <string name="self_made_to_nfulfill_the_assignment_of_the_akb_course">Self-made to\nfulfill the assignment of the AKB course</string>
+    <string name="welcome_to_myself_app">Welcome to MySelf-App</string>
+    <string name="my_self_app_has_several_menus_namely_nhome_containing_interests_daily_activities_containing_friend_lists_and_activities_that_ni_did_that_day">My-self App has several menus, namely\nhome containing interests, daily activities containing friend lists and activities that\nI did that day.</string>
+    <string name="my_self_app_also_has_menus_gallery_with_random_photos_music_and_videos_and_finally_profile_little_information_about_me">My-Self App also has menus Gallery with random photos, music and videos, and finally profile little information about me</string>
+    <string name="so_enjoy">So Enjoy!!</string>
+    <string name="masuk">Masuk</string>
+    <string name="rahma_yuniar_n21_female">Rahma Yuniar\n21,Female</string>
+    <string name="whastapp">WhastApp</string>
+    <string name="email">Email</string>
+    <string name="kopo_safira_residence_blok_d5_nmargahayu_tengah">Kopo Safira Residence Blok D5,\nMargahayu Tengah</string>
+    <string name="find_me1">Find Me</string>
+    <string name="show_dialog">Show Dialog</string>
 </resources>

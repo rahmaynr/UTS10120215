@@ -7,13 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".walktrough.walktrough3">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
+
     <TextView
         android:id="@+id/textView21"
         android:layout_width="341dp"
         android:layout_height="114dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="My-Self App also has menus Gallery with random photos, music and videos, and finally profile little information about me"
+        android:text="@string/my_self_app_also_has_menus_gallery_with_random_photos_music_and_videos_and_finally_profile_little_information_about_me"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="So Enjoy!!"
+        android:text="@string/so_enjoy"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:background="@drawable/button"
-        android:text="Masuk"
+        android:text="@string/masuk"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

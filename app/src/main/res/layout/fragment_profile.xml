@@ -5,6 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -40,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="Rahma Yuniar\n21,Female"
+            android:text="@string/rahma_yuniar_n21_female"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -83,7 +87,7 @@
         android:layout_marginStart="20dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="openSosialMedia"
-        android:text="WhastApp"
+        android:text="@string/whastapp"
         app:layout_constraintBottom_toBottomOf="@+id/btnInstagram"
         app:layout_constraintStart_toEndOf="@+id/btnInstagram"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -95,7 +99,7 @@
         android:layout_marginTop="15dp"
         android:backgroundTint="@color/teal_200"
         android:onClick="openSosialMedia"
-        android:text="Email"
+        android:text="@string/email"
         app:layout_constraintEnd_toEndOf="@+id/btnWa"
         app:layout_constraintStart_toStartOf="@+id/btnInstagram"
         app:layout_constraintTop_toBottomOf="@+id/btnInstagram" />
@@ -127,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Kopo Safira Residence Blok D5,\nMargahayu Tengah"
+                android:text="@string/kopo_safira_residence_blok_d5_nmargahayu_tengah"
                 android:textColor="@color/white"
                 android:textSize="16dp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView11"
@@ -141,7 +145,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find Me"
+        android:text="@string/find_me1"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,7 +171,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/teal_200"
-            android:text="Show Dialog"
+            android:text="@string/show_dialog"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.84"
             app:layout_constraintStart_toStartOf="parent"

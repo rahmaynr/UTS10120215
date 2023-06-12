@@ -7,6 +7,10 @@
     android:layout_height="220dp"
     tools:context=".Dialog.CustomDialogFragment">
 
+    <!-- Tanggal Pengerjaan : 21 Mei - 12 Juni 2023 -->
+    <!-- Nim : 10120215 -->
+    <!-- Nama: Rahma Yuniar -->
+    <!-- Kelas: IF6 -->
 
         <TextView
             android:id="@+id/dialogTitle"
