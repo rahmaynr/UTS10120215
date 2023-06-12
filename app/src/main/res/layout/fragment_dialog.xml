@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Abulagi"
+    android:layout_height="220dp"
+    tools:context=".Dialog.CustomDialogFragment">
+
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="My-self App Rahma "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/dialogTitle2"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="This application is a little about me,\nwhich was made to fulfill an AKB course assignment"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogTitle" />
+
+    <TextView
+            android:id="@+id/txt_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/dialogTitle"
+            app:layout_constraintStart_toStartOf="@+id/dialogTitle"
+            app:layout_constraintTop_toBottomOf="@+id/dialogTitle"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="CLOSE"
+        app:layout_constraintEnd_toEndOf="@+id/dialogTitle"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="@+id/dialogTitle"
+        app:layout_constraintTop_toBottomOf="@+id/dialogTitle2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

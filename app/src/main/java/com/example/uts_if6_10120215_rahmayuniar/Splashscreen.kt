@@ -10,7 +10,7 @@ import com.example.uts_if6_10120215_rahmayuniar.walktrough.walktroughActivity
 class SplashScreenActivity : AppCompatActivity() {
 
             private val splashScreenTimeout =
-                1500L // Durasi splash screen dalam milidetik (di sini: 3 detik)
+                2500L // Durasi splash screen dalam milidetik (di sini: 3 detik)
 
             override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)

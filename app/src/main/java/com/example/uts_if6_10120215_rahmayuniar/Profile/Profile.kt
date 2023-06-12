@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
+import com.example.uts_if6_10120215_rahmayuniar.Dialog.CustomDialogFragment
 import com.example.uts_if6_10120215_rahmayuniar.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -56,6 +58,10 @@ class Profile : Fragment() {
         val btnInstagram = view.findViewById<View>(R.id.btnInstagram)
         val btnWa = view.findViewById<View>(R.id.btnWa)
         val btnEmail = view.findViewById<View>(R.id.btnEmail)
+        val showDialogButton = view.findViewById<Button>(R.id.btn_show)
+        showDialogButton.setOnClickListener {
+            showCustomDialog()
+        }
 
         btnInstagram.setOnClickListener {
             openSocialMedia("https://instagram.com/rhmaynrr?igshid=NGExMmI2YTkyZg==")
@@ -66,6 +72,10 @@ class Profile : Fragment() {
         btnEmail.setOnClickListener {
             openEmail()
         }
+    }
+    private fun showCustomDialog() {
+        val dialogFragment = CustomDialogFragment()
+        dialogFragment.show(parentFragmentManager, "CustomDialogFragment")
     }
 
     private fun openSocialMedia(url: String) {
